@@ -380,16 +380,26 @@ Set-ExecutionPolicy Bypass -Scope CurrentUser
 How to install:
 
 ```Open Terminal in the location of the downloaded file then run 
+
 tar -zxf yarGen-x.x.x.tar.gz. 
+
 ```Next we need to use pip to download and install some additional dependencies. Try running the command pip in a terminal. If it states that the command is not found then you need to install python-pip using the command:
+
 sudo apt-get install python-pip. 
+
 ```Now execute the following two commands:
+
 sudo pip install pefile cd
 sudo pip install scandir lxml naiveBayesClassifier
+
 ```Now use cd to move into the extracted YarGen directory, and run the following command to ensure everything is updated: 
+
 python yarGen.py --update 
+
 ```Now type the command 
+
 python yarGen.py --help
+
 ``` This will confirm YarGen is working along with providing help on using the tool
 
 
